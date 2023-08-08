@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>MAWETH VIDEOS</h1>
+        <P>O maior primeiro buscador de video do mundo</P>
+    </header>
+    <nav>
+        <a href="index.html" target="_self" rel="prev" >home</a>
+        <a href="./galeria/gal.html" target="_self" rel="next">galeria</a>
+        <a href="identificacao.html" target="_self">Identificação</a>
+    </nav>
+    <main>
+        <div class="relative">
+            <div class="absolute">
+                <form action="">
+                    <fieldset id="usuario">
+                        <legend class="bold">Identificação do usuário</legend>
+                        <p><label for="cnome">Nome:</label> <input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="Nome Completo"></p>
+                        <p> <label for="csenha">Senha:</label> <input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="8 digitos"></p>
+                        <p> <label for="cmail">E-mail:</label> <input type="email" name="tmail" id="cmail" size="20" maxlength="30"></p>
+                        <fieldset id="Sexo">
+                            <legend class="bold">Sexo:</legend>
+                           <input type="radio" name="tsx" id="cmasc"> <label for="cmas">Masculino </label> <br>
+                            <input type="radio" name="tsx" id="cfem" checked> <label for="cfem">Femenino</label>
+                        </fieldset>
+                        <p><label for="cnasc"> Data de nascimento:</label> <input type="date" name="tnasc" id="cnasc"></p>
+                    </fieldset>
+                    <input type="button" value="Enviar" id="enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

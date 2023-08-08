@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <form action="">
+                    <p>
+                        <label for="txtano">Ano de nascimento:</label> <input type="number" name="txtano" id="txtano">
+                    </p>
+                    <p>
+                        sexo: <input type="radio" name="radsex" id="masc"> <label for="masc">Masculino</label>
+                            <input type="radio" name="radsex" id="fem"><label for="fem"> Femenino
+                    </p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+            </form>
+        </div>
+        <div>
+            <p id="res">Preencha o dados a cima resultado</p>
+        </div>
+    </section>
+    <footer>&copy; Aluno de Celson Campos...</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

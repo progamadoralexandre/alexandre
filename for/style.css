@@ -1,0 +1,56 @@
+    @charset "UTF-8";
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial;
+    }
+
+    body{
+        background-color: blue;
+        padding: 20px;
+        background-image: url('fundo-madeira.jpg');
+    }
+
+    header h1{
+        color: #fff;
+        text-align: center;
+        font-size: 3em;
+        padding: 20px;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.589);
+    }
+
+    #news-container{
+        background-color: #ffffff49;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+        max-width: 500px;
+        padding: 20px;
+        margin: auto;
+        border-radius: 6px;
+    }
+
+    #news-container p{
+        margin: 10px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    }
+
+    main section p input[type="button"]{
+        padding: 3.5px;
+        font-weight: bold;
+    }
+
+    input{
+        padding: 1.8px;
+        background-color: #ffffff96;
+        font-weight: bold;
+        border: none;
+    }
+
+    footer p{
+        text-align: center;
+        color: #fff;
+        margin: 15px;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.356);
+    }

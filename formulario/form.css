@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+form{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+#sexo{
+    width: 150px;
+}
+
+input,#cest,#ccid{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    background-color: #cccccc4f;
+}
+
+textarea{
+    width: 400px;
+}
+
+input:hover,#cest:hover,#ccid:hover,textarea:hover {
+    background-color: #dddd;
+}
+
+fieldset{
+    margin: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    border-color: #cecece;
+}
+
+legend{
+    font-weight: bold;
+    color: #ccc;
+}
+
+#cbotao{
+   padding: 8px;
+   border-radius: 5px;
+   position: absolute;
+   left: 7.8%;
+}
+
+#usuario{
+    background-image: url('https://images.vexels.com/media/users/3/134904/isolated/preview/55500571b8176366dd4298b925235cb2-icone-de-suporte-de-contato-3d.png');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
